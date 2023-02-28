@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>Bootstrap images and forms</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link" href="https://www.porsche.com/pap/_philippines_/">Homepage</a></li>
+			<li class="nav-item"><a class="nav-link" href="https://www.nike.com/ph/">About us</a></li>
+			<li class="nav-item"><a class="nav-link" href="https://www.mcdonalds.com.ph">Contact Us</a></li>
+		</ul>
+	</nav>
+
+	<table class="table table-striped table-bordered table-hover">
+		<tr>
+			<td class="bg-primary">Image</td>
+			<td class="bg-danger">Description</td>
+			<td class="bg-warning">Net Worth</td>
+		</tr>
+		<tr>
+			<td class="bg-warning"><img src="https://img.a.transfermarkt.technology/portrait/big/28003-1671435885.jpg?lm=1" height="200px" width="200px" class="img-thumbnail"></td>
+			<td class="bg-primary">Lionel Messi, in full Lionel Andrés Messi, also called Leo Messi, (born June 24, 1987, Rosario, Argentina), Argentine-born football (soccer) player who received a record-setting seven Ballon d’Or awards as the world’s top male player (2009–12, 2015, 2019, and 2021). In 2022 he helped Argentina win the Fédération Internationale de Football Association (FIFA)’s World Cup.</td>
+			<td class="bg-danger">620 MILLION USD</td>
+		</tr>
+		<tr>
+			<td class="bg-danger"><img src="https://www.ligue1.com/-/media/Project/LFP/shared/Images/Players/2022-2023/21/56621.jpg" height="200px" width="200px" class="img-thumbnail"></td>
+			<td class="bg-warning">Kylian Mbappé Lottin (born 20 December 1998) is a French professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and the France national team. Considered one of the best players in the world, he is renowned for his dribbling abilities, exceptional speed, and finishing.</td>
+			<td class="bg-primary">150 MILLION USD</td>
+		</tr>
+		<tr>
+			<td class="bg-primary"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnWji8dZXso2Sq2mxM6nqJGGeDUBmIkY67KA&usqp=CAU" height="200px" width="200px" class="img-thumbnail"></td>
+			<td class="bg-danger">Cristiano Ronaldo, in full Cristiano Ronaldo dos Santos Aveiro, (born February 5, 1985, Funchal, Madeira, Portugal), Portuguese football (soccer) forward who was one of the greatest players of his generation.</td>
+			<td class="bg-warning">490 MILLION USD</td>
+		</tr>
+		<tr>
+			<td class="bg-warning"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgRWWDiBYxCFx6JTgTsgo2XAhEccz7ez58Bg&usqp=CAU" height="200px" width="200px" class="img-thumbnail"></td>
+			<td class="bg-primary">David Beckham, in full David Robert Joseph Beckham, (born May 2, 1975, Leytonstone, East London, England), English football (soccer) player who gained international fame for his on-field play as well as for his highly publicized personal life.</td>
+			<td class="bg-danger">450 MILLION USD</td>
+		</tr>
+	</table>
+	<div class="container text-light bg-dark">
+	<h2>Bootstrap Form</h2>
+	<form class="form-group">
+		<div class="form-group">
+			<input type="checkbox" name="old">OLD PLAYER
+		</div>
+		
+		<div class="form-group">
+			<input type="checkbox" name="NEW">NEW PLAYER
+		</div>
+		
+		Enter Firstname: <input type="text" name="fname" class="form-control">
+		Enter Lastname: <input type="text" name="lname" class="form-control">
+		Choose Country:
+		<select class="form-control">
+			<option>Philippines</option>
+			<option>Cambodia</option>
+			<option>Algeria</option>
+			<option>Other</option>
+		</select>
+		Choose Sport:
+		<select class="form-control">
+			<option>Football</option>
+			<option>UFC</option>
+			<option>Basketball</option>
+			<option>Other</option>
+		</select>
+		Choose Date Started:
+		<input type="date" name="enrolled" class="form-control">
+		Upload Profile Picture
+		<input type="file" name="records" class="form-control">
+		<br>
+		<input type="submit" value="SUBMIT" class="btn btn-success btn-block">
+		<input type="reset" value="CANCEL" class="btn btn-danger btn-block">
+	</form>
+</div>
+</body>
+</html>
